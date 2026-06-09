@@ -12,3 +12,15 @@ Features
 - Retry Logic
 - Monitoring
 - Workflow Automation
+
+## Architecture
+
+Source Data → S3 → Airflow DAG → ETL Processing → Data Warehouse
+
+## Components
+
+- Airflow Scheduler
+- Airflow DAG
+- Python ETL Script
+- AWS S3 Storage
+- Monitoring & Alerts
